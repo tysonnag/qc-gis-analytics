@@ -20,6 +20,13 @@ identify optimization opportunities.
 - How can polygon remapping improve site-level load balancing and delivery speed?
 
 
+## Key Business Questions
+- Are QC site service polygons overlapping and causing order leakage?
+- Which geographic zones have high order density but poor SLA performance?
+- Is the current radius-based coverage aligned with demand patterns?
+- How can polygon remapping improve site-level load balancing and delivery speed?
+
+
 ## Data & Metrics
 - Order latitude and longitude
 - Site codes and service polygons
@@ -40,6 +47,14 @@ service coverage efficiency, and SLA compliance.
 The comparison helps identify whether remapping actions led to
 better demand alignment and reduced overlap between QC sites.
 
+## Before vs After Geo-Remapping Analysis
+This analysis compares operational performance before and after
+geo-polygon remapping to evaluate changes in order distribution,
+service coverage efficiency, and SLA compliance.
+
+The comparison helps identify whether remapping actions led to
+better demand alignment and reduced overlap between QC sites.
+
 
 ## Tools & Technologies
 - SQL (business metrics & aggregations)
@@ -51,6 +66,12 @@ better demand alignment and reduced overlap between QC sites.
 - Improved visibility into service coverage
 - Identification of overlap and leakage zones
 - Data-driven insights for operational optimization
+
+## Business Impact & Insights
+- Identified overlapping service areas contributing to inefficient order allocation
+- Highlighted high-demand zones requiring optimized service coverage
+- Enabled data-driven polygon and radius remapping decisions
+- Supported improved SLA visibility and site-level performance tracking
 
 ## Business Impact & Insights
 - Identified overlapping service areas contributing to inefficient order allocation
